@@ -27,4 +27,16 @@ nav a {
 h1, h2 {
     color: #003366;
 }
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.profile img {
+    width: 160px;
+    border-radius: 50%;
+    border: 3px solid #003366;
+}
+
 
