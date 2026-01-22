@@ -94,23 +94,32 @@ h1, h2 {
 
 .news-section {
     margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   /* centers everything */
 }
+
 
 .news-title {
     font-size: 1.4em;
     color: #003366;
     margin-bottom: 10px;
+    text-align: center;
 }
+
 
 /* Visible window */
 .news-container {
-    height: 120px;                 /* visible height */
+    width: 100%;
+    max-width: 700px;      /* controls how wide it is */
+    height: 120px;
     overflow: hidden;
     background: #f1f5fb;
     border-left: 6px solid #003366;
     border-radius: 6px;
     padding: 10px 20px;
 }
+
 
 /* Moving content */
 .news-ticker {
