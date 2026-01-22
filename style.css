@@ -90,6 +90,52 @@ h1, h2 {
     color: #003366;
     margin: 0;
 }
+.news-section {
+    margin-top: 40px;
+}
+
+.news-title {
+    font-size: 1.4em;
+    color: #003366;
+    margin-bottom: 10px;
+}
+
+.news-container {
+    background: #f1f5fb;
+    border-left: 6px solid #003366;
+    padding: 12px 0;
+    overflow: hidden;
+    position: relative;
+    border-radius: 6px;
+}
+
+.news-ticker {
+    display: inline-block;
+    white-space: nowrap;
+    animation: scroll-news 25s linear infinite;
+}
+
+.news-item {
+    display: inline-block;
+    margin-right: 60px;
+    font-size: 1em;
+    color: #222;
+}
+
+.news-item span {
+    font-weight: bold;
+    color: #003366;
+}
+
+@keyframes scroll-news {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
 
 
 
